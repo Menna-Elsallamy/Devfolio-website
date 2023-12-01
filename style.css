@@ -1,0 +1,271 @@
+body{
+  background-color: whitesmoke;
+}
+:root{
+  --main-color:#0078ff;
+}
+body,html{
+  scroll-behavior: smooth;
+}
+html{
+  scroll-padding-top: 50px;
+}
+header{
+    background-image: url(./DevFolioimages/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.hometitle h1{
+    font-weight: 600;
+    color: white;
+    font-size: 3rem;
+}
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .navbar-nav .nav-item a {
+    text-decoration: none;
+    color: white; /* Set the default color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  .navbar-nav > .nav-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white; /* Underline color */
+    position: absolute;
+    bottom: -2px; /* Adjust the position of the underline */
+    left: 0;
+    transition: width 0.3s ease; /* Smooth transition for underline width change */
+  }
+  
+  /* .navbar-nav > .nav-item.active::after,
+  .navbar-nav > .nav-item:hover::after {
+    width: 100%;
+  } */
+  #navbarSupportedContent > ul > li.nav-item.dropdown > ul>li a{
+    color: black;
+  }
+  
+  /* Apply hover styles only on screens larger than 768px */
+  
+  
+  /* .activetwo a::after {
+    content:"";
+    height: 2px;
+    width: 0px;
+    bottom: -50px;
+    background-color: #fff;
+    display: block;
+    transition: width 0.3s ease;
+  }
+  
+  .activetwo a:hover {
+    color:#fff;
+  }
+  
+  .activetwo a:hover::after {
+    width: 100%;
+  } */
+
+  .typewriter::after {
+    content: '|';
+    display: inline-block;
+    animation: blink-caret 0.75s step-end infinite alternate;
+  }
+
+
+  @keyframes blink-caret {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #000;
+    }
+  }
+
+  /* .activetwo a::after {
+    border: none;
+  } */
+  .title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.servicesinfo p{
+  position: relative;
+}
+.servicesinfo p::after{
+  content: "";
+  background-color: blue;
+  height: 2px;
+  width: 5%;
+ position: absolute;
+ left: 47.5%;
+ bottom:0;
+}
+.icon-circle{
+  height: 4rem;
+  width: 4rem;
+  background-color: #fff;
+  transition: all 1s;
+  border: 5px solid var(--main-color);
+}
+.icon-circle:hover{
+  background-color: var(--main-color);
+  border-color:rgba(170, 202, 231, 0.521);
+}
+section.counter{
+  background-image: url(./DevFolioimages/counters-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.icon-circletwo{
+  height: 4rem;
+  width: 4rem;
+  background-color: transparent;
+  transition: all 1s;
+  border: 5px solid rgba(170, 202, 231, 0.521);
+}
+.layer{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(9, 83, 241, 0.521);
+}
+.icon-circlethree{
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 3px solid var(--main-color);
+}
+#Portofolio > div > div.row > div > div > div > div > div.col-8 > div > span.cateogery{
+  font-size: 0.8rem;
+  color: var(--main-color);
+}
+#Portofolio > div > div.row > div > div > div > div > div.col-8 > div > span.datee{
+  font-size: 0.8rem;
+  color: #4e4e4e;
+}
+#Portofolio > div > div.row > div > div img{
+  transition: all 1s;
+}
+#Portofolio > div > div.row > div > div:hover img{
+  transform: scale(1.3);
+}
+#Portofolio > div > div.row > div > div > div.imageee{
+  overflow: hidden;
+}
+#Portofolio > div > div.row > div > div > div.portocontent.bg-white.shadow > div > div.col-4.d-flex.justify-content-end.align-items-end > div > a{
+  text-decoration: none;
+}
+.carroparent{
+  background-image: url(./DevFolioimages/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.layertwo{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(9, 83, 241, 0.521);
+}
+#carouselExampleIndicators > div.carroparent > div.layertwo > div > div > div > div.carcontent > h2{
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+#carouselExampleIndicators > div.carroparent > div.layertwo > div > div > div > div.carcontent > p{
+  color: white;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+.carousel-indicators [data-bs-target]{
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+#Blog > div.container > div > div > div > div.card-footer > div > img{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+#Blog > div.container > div > div > div > div.card-body > h5 > a{
+  text-decoration: none;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  transition: all 0.5s;
+}
+#Blog > div.container > div > div > div > div.card-body > h5 > a:hover{
+  color: var(--main-color);
+}
+.texttwo span,p{
+  color: #4e4e4e;
+}
+.position-static {
+  position: absolute !important;
+  transform: translateY(-50%);
+  left: 41.39%;
+}
+.contactbackground{
+  background-image: url(./DevFolioimages/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.layerthree{
+  background-color:rgba(9, 83, 241, 0.521);
+}
+#Contact > div > div > div > div > div > ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.socialicon{
+  height: 1.75rem;
+  width: 1.75rem;
+}
+#Contact > div > div > div > div > div > h2{
+  position: relative;
+}
+#Contact > div > div > div > div > div > h2::after{
+  content: "";
+  background-color: blue;
+  height: 2px;
+  width: 100px;
+ position: absolute;
+ left:0;
+ bottom:0;
+}
+ #Contact > div > div > div > div > div:nth-child(1) > h2{
+  position: relative;
+}
+#Contact > div > div > div > div > div:nth-child(1) > h2::after{
+  content: "";
+  background-color: blue;
+  height: 2px;
+  width: 100px;
+ position: absolute;
+ left:0;
+ bottom:0;
+} 
+body > footer{
+  background-color:#0062d3;
+}

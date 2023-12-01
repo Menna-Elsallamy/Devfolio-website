@@ -1,0 +1,16 @@
+@media screen and (min-width: 992px){
+    .navbar-nav .nav-item.active a,
+    .navbar-nav .nav-item:hover a {
+      color: white;
+    }
+    #navbarSupportedContent > ul > li.nav-item.dropdown > ul>li:hover a{
+        color: blue;
+    }
+    #navbarSupportedContent > ul > li.nav-item.dropdown > a:hover{
+        color: white;
+    }
+    .navbar-nav > .nav-item.active::after,
+    .navbar-nav > .nav-item:hover::after {
+      width: 100%;
+    }
+  }
