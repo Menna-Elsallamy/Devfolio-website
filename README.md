@@ -3,5 +3,5 @@ Discover [Devfolio], a responsive front-end showcase using HTML,HTML5,CSS, CSS3,
 # Live Demo
 [Devfolio Website Live Demo](https://menna-elsallamy.github.io/Devfolio-website/)
 # Screenshots of website
-![Capture-One](./Website-Screenshots/Capture 1.PNG)
+![Capture-One](https://github.com/Menna-Elsallamy/Devfolio-website/blob/main/Website-Screenshots/Capture%201.PNG)
 
