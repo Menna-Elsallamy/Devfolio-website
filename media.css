@@ -3,6 +3,13 @@
     .navbar-nav .nav-item:hover a {
       color: white;
     }
+@media screen and (max-width: 576px){
+    .hometitle h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+}
+}
     #navbarSupportedContent > ul > li.nav-item.dropdown > ul>li:hover a{
         color: blue;
     }
